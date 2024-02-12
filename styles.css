@@ -1,0 +1,238 @@
+body {
+margin: 0;
+padding: 0;
+}
+.blackcolor {
+color: black;
+font-family: bebas neue;
+letter-spacing: 3px;
+font-size: 2rem;
+}
+.coach {
+color: black;
+font-family: bebas neue;
+letter-spacing: 1px;
+}
+#h2p {
+    padding-top: 15px;
+}
+
+/**Header section**/
+/**Mobile section**/
+@media only screen and (max-width: 500px) {
+    header .menu {
+        display: none;
+    }
+    #mobile {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+    .mobile img {
+        width: 50px;
+    }
+    
+    
+}
+header .mobile {
+    display: none;
+}
+/**Mobile section**/
+#logo {
+    width:60px;
+    padding: 10px;
+}
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+.menu {
+    padding-right: 10px;
+}
+.menu li {
+display: inline;
+padding: 10px;
+color: #c70101;
+font-family: montserrat;
+font-weight: bold;
+}
+.menu li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/**Main section**/
+
+.head {
+    background-image: url(./images/photo-1623607915241-a3151d59a9c8.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+    width: 100%;
+}
+
+/**Training section**/
+
+.trainingcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+   
+}
+.card img {
+ width: 100%;
+ height: 90%;
+ display: flex;
+ justify-content: center;
+}
+#photo {
+    max-width: 500px;
+    transition: transform 0.9s;
+}
+#photo:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    border: 3px solid red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+.h2ts h2 {
+    display: flex;
+    justify-content: center;
+}
+
+/**Coach section**/
+
+.h2cs h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#cophoto {
+    width: 450px;
+    height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.coachcards {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 15px;
+}
+.cocard img {
+    height: 100%;
+    max-width: 100%;
+}
+.cocard h3 {
+    display: flex;
+    justify-content: center;
+}
+
+/**Next much section**/
+
+.nextmuch {
+    background-image: url(./images/photo-1642763907630-17bad0853f15.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backcolor {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.bbackcolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    background-color: darkgray;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: 3px solid dimgray;
+    font-family: bebas neue;
+}
+.backcolor h4, h2, h3, h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+}
+.backcolor img {
+    width: 50px;
+    height: 70px;
+}
+
+/**Footer section**/
+
+.footerclr {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#footerh5 {
+    margin: 0;
+    color: white;
+    padding-right: 20px;
+    font-family: montserrat;
+}
+.footerclr0 {
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#button1{
+    border: 0.5px solid dimgray;
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    font-family: montserrat;
+}
+#button1:hover {
+    background-color: dimgray;
+    cursor:pointer;
+}
+
+#button2{
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: #c70101;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    font-family: montserrat;
+}
+
+#button2:hover {
+    background-color: #E00101;
+    cursor:pointer;
+}
